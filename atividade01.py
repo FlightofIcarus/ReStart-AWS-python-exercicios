@@ -1,3 +1,5 @@
+#Exercícios práticos obrigatórios do preparatório de certificação AWS
+
 print("Hello world!")
 
 numero1 = 2
