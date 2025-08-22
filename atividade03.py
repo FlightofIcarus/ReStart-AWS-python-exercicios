@@ -11,7 +11,7 @@ def classificador_idade():
     else:
         return "Idade inválida."
 
-# print(classificador_idade())
+print(classificador_idade())
 
 def calculadora_imc():
     peso = float(input("Digite seu peso em kg usando ponto em vez de vírgula:"))
@@ -28,7 +28,7 @@ def calculadora_imc():
     else:
         return "Valor de IMC inválido."
 
-# print(calculadora_imc())
+print(calculadora_imc())
 
 def conversor_temperatura():
     temperatura = float(input("Digite a temperatura usando ponto em vez de vírgula:"))
@@ -49,7 +49,7 @@ def conversor_temperatura():
     else:
         return "Unidade de temperatura não suportada ou inválida."
 
-# print(conversor_temperatura())
+print(conversor_temperatura())
 
 def verifica_ano_bissexto():
     ano = int(input("Digite um ano para verificar se é bissexto:"))
